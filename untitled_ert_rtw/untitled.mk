@@ -2,7 +2,7 @@
 ## Makefile generated for component 'untitled'. 
 ## 
 ## Makefile     : untitled.mk
-## Generated on : Sun Apr 09 13:15:06 2023
+## Generated on : Sun Apr 23 09:28:21 2023
 ## Final product: $(RELATIVE_PATH_TO_ANCHOR)/untitled.elf
 ## Product type : executable
 ## 
@@ -18,17 +18,17 @@
 
 PRODUCT_NAME              = untitled
 MAKEFILE                  = untitled.mk
-MATLAB_ROOT               = C:/PROGRA~1/MATLAB/R2023a
-MATLAB_BIN                = C:/PROGRA~1/MATLAB/R2023a/bin
+MATLAB_ROOT               = C:/PROGRA~1/MATLAB/R2022b
+MATLAB_BIN                = C:/PROGRA~1/MATLAB/R2022b/bin
 MATLAB_ARCH_BIN           = $(MATLAB_BIN)/win64
-START_DIR                 = C:/Users/Zuhair/DOCUME~1/UTEXAS/SPRING~1/ACSL/SZF77_~2
+START_DIR                 = C:/Users/Zuhair/Documents/GitHub/ACSL_MinSeg
 SOLVER                    = 
 SOLVER_OBJ                = 
 CLASSIC_INTERFACE         = 0
 TGT_FCN_LIB               = None
 MODEL_HAS_DYNAMICALLY_LOADED_SFCNS = 0
 RELATIVE_PATH_TO_ANCHOR   = ..
-SLIB_PATH                 = C:/Users/Zuhair/DOCUME~1/MATLAB/R2023a/ARDUIN~1/ARDUIN~1/FASTER~1
+SLIB_PATH                 = C:/Users/Zuhair/DOCUME~1/MATLAB/R2022b/ARDUIN~1/ARDUIN~1/FASTER~1
 C_STANDARD_OPTS           = 
 CPP_STANDARD_OPTS         = 
 
@@ -38,7 +38,7 @@ CPP_STANDARD_OPTS         =
 
 # Toolchain Name:          Arduino AVR
 # Supported Version(s):    
-# ToolchainInfo Version:   2023a
+# ToolchainInfo Version:   2022b
 # Specification Revision:  1.0
 # 
 #-------------------------------------------
@@ -194,7 +194,7 @@ BUILD_TYPE = "Top-Level Standalone Executable"
 ## INCLUDE PATHS
 ###########################################################################
 
-INCLUDES_BUILDINFO = -I$(START_DIR) -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2023a/aIDE/hardware/arduino/avr/LIBRAR~1/Wire -IC:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/utility -IC:/Users/Zuhair/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2023a/aIDE/hardware/arduino/avr/LIBRAR~1/Wire/src -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2023a/aIDE/hardware/arduino/avr/LIBRAR~1/Wire/src/utility -I$(START_DIR)/untitled_ert_rtw -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/include -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/common -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/protocol/src -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/protocol/include -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/transport/include -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/transport/src -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/platform/include -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/platform/default -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/include -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src -I$(MATLAB_ROOT)/toolbox/coder/rtiostream/src -I$(ARDUINO_ROOT)/hardware/arduino/avr/cores/arduino -I$(ARDUINO_ROOT)/hardware/arduino/avr/variants/mega -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2023a/toolbox/target/SUPPOR~1/ARDUIN~1/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2023a/toolbox/target/SUPPOR~1/ARDUIN~1/SCHEDU~1/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2023a/toolbox/target/SUPPOR~1/ARDUIN~2/include -I$(ARDUINO_ROOT)/hardware/tools/avr/avr/include/avr
+INCLUDES_BUILDINFO = -I$(START_DIR) -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/aIDE/hardware/arduino/avr/LIBRAR~1/Wire -IC:/Users/Zuhair/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/aIDE/hardware/arduino/avr/LIBRAR~1/Wire/src -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/aIDE/hardware/arduino/avr/LIBRAR~1/Wire/src/utility -IC:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/utility -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/target/SUPPOR~1/ARDUIN~2/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/target/shared/svd/include -IC:/Users/Zuhair/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/src -I$(START_DIR)/untitled_ert_rtw -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/include -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/common -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/protocol/src -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/protocol/include -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/transport/include -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/transport/src -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/platform/include -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/platform/default -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/include -I$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src -I$(MATLAB_ROOT)/toolbox/coder/rtiostream/src -I$(ARDUINO_ROOT)/hardware/arduino/avr/cores/arduino -I$(ARDUINO_ROOT)/hardware/arduino/avr/variants/mega -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/target/SUPPOR~1/ARDUIN~1/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/target/SUPPOR~1/ARDUIN~1/SCHEDU~1/include -I$(ARDUINO_ROOT)/hardware/tools/avr/avr/include/avr
 
 INCLUDES = $(INCLUDES_BUILDINFO)
 
@@ -202,10 +202,10 @@ INCLUDES = $(INCLUDES_BUILDINFO)
 ## DEFINES
 ###########################################################################
 
-DEFINES_ = -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DXCP_MAX_CTO_SIZE=32 -DXCP_MAX_DTO_SIZE=65532 -DXCP_MAX_ODT_ENTRY_SIZE=255 -DXCP_MAX_DAQ=65535 -DXCP_MIN_DAQ=0 -DXCP_MAX_EVENT_CHANNEL=128 -DXCP_ID_FIELD_TYPE=0 -DXCP_TIMESTAMP_SIZE=4 -DXCP_ADDRESS_GRANULARITY=XCP_ADDRESS_GRANULARITY_BYTE -DCODERTARGET_XCP_DAQ_PACKED_MODE -DCODERTARGET_XCP_MAX_CONTIGUOUS_SAMPLES=2 -D_MW_ARDUINO_LOOP_=1 -DMW_ARDUINO_STEP_SIZE=30000 -DMW_ARDUINO_MICROS -DARDUINO_NUM_SERIAL_PORTS=4 -D_RTT_BAUDRATE_SERIAL0_=9600 -D_RTT_BAUDRATE_SERIAL1_=9600 -D_RTT_BAUDRATE_SERIAL2_=9600 -D_RTT_BAUDRATE_SERIAL3_=9600 -D_RTT_CONFIG_SERIAL0_=SERIAL_8N1 -D_RTT_CONFIG_SERIAL1_=SERIAL_8N1 -D_RTT_CONFIG_SERIAL2_=SERIAL_8N1 -D_RTT_CONFIG_SERIAL3_=SERIAL_8N1 -D_RTT_ANALOG_REF_=0 -DMW_RTIO_SERIAL0
+DEFINES_ = -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DXCP_MAX_CTO_SIZE=32 -DXCP_MAX_DTO_SIZE=65532 -DXCP_MAX_ODT_ENTRY_SIZE=255 -DXCP_MAX_DAQ=65535 -DXCP_MIN_DAQ=0 -DXCP_MAX_EVENT_CHANNEL=128 -DXCP_ID_FIELD_TYPE=0 -DXCP_TIMESTAMP_SIZE=4 -DXCP_ADDRESS_GRANULARITY=XCP_ADDRESS_GRANULARITY_BYTE -DCODERTARGET_XCP_DAQ_PACKED_MODE -DCODERTARGET_XCP_MAX_CONTIGUOUS_SAMPLES=2 -D_MW_ARDUINO_LOOP_=1 -DMW_ARDUINO_STEP_SIZE=10000 -DMW_ARDUINO_MICROS -DARDUINO_NUM_SERIAL_PORTS=4 -D_RTT_BAUDRATE_SERIAL0_=9600 -D_RTT_BAUDRATE_SERIAL1_=9600 -D_RTT_BAUDRATE_SERIAL2_=9600 -D_RTT_BAUDRATE_SERIAL3_=9600 -D_RTT_CONFIG_SERIAL0_=SERIAL_8N1 -D_RTT_CONFIG_SERIAL1_=SERIAL_8N1 -D_RTT_CONFIG_SERIAL2_=SERIAL_8N1 -D_RTT_CONFIG_SERIAL3_=SERIAL_8N1 -D_RTT_ANALOG_REF_=0 -DMW_RTIO_SERIAL0 -D_RTT_PWM_BLOCKS_
 DEFINES_BUILD_ARGS = -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0
 DEFINES_CUSTOM = 
-DEFINES_OPTS = -DXCP_EXTMODE_SIMULATION_TIME_IN_TICKS -DXCP_DAQ_SUPPORT -DXCP_CALIBRATION_SUPPORT -DXCP_TIMESTAMP_SUPPORT -DXCP_TIMESTAMP_BASED_ON_SIMULATION_TIME -DXCP_SET_MTA_SUPPORT -DEXTMODE_XCP_TRIGGER_SUPPORT -DINTERNAL_XCP_MEM_BLOCK_1_SIZE=128 -DINTERNAL_XCP_MEM_BLOCK_1_NUMBER=1 -DINTERNAL_XCP_MEM_BLOCK_2_SIZE=168 -DINTERNAL_XCP_MEM_BLOCK_2_NUMBER=4 -DINTERNAL_XCP_MEM_BLOCK_3_SIZE=24 -DINTERNAL_XCP_MEM_BLOCK_3_NUMBER=4 -DINTERNAL_XCP_MEM_RESERVED_POOLS_TOTAL_SIZE=2718 -DINTERNAL_XCP_MEM_RESERVED_POOLS_NUMBER=5 -DEXTMODE_STATIC -DEXTMODE_STATIC_SIZE=2048 -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=0 -DXCP_MEM_BLOCK_1_SIZE=32 -DXCP_MEM_BLOCK_1_NUMBER=1 -DXCP_MEM_BLOCK_2_SIZE=56 -DXCP_MEM_BLOCK_2_NUMBER=1 -DXCP_MEM_BLOCK_3_SIZE=16 -DXCP_MEM_BLOCK_3_NUMBER=1 -DXCP_MEM_RESERVED_POOLS_TOTAL_SIZE=373 -DXCP_MEM_RESERVED_POOLS_NUMBER=2 -DXCP_MEM_DAQ_RESERVED_POOL_BLOCKS_NUMBER=3 -DXCP_MEM_DAQ_RESERVED_POOLS_NUMBER=1 -DXCP_MIN_EVENT_NO_RESERVED_POOL=1
+DEFINES_OPTS = -DXCP_EXTMODE_SIMULATION_TIME_IN_TICKS -DXCP_DAQ_SUPPORT -DXCP_CALIBRATION_SUPPORT -DXCP_TIMESTAMP_SUPPORT -DXCP_TIMESTAMP_BASED_ON_SIMULATION_TIME -DXCP_SET_MTA_SUPPORT -DEXTMODE_XCP_TRIGGER_SUPPORT -DINTERNAL_XCP_MEM_BLOCK_1_SIZE=128 -DINTERNAL_XCP_MEM_BLOCK_1_NUMBER=1 -DINTERNAL_XCP_MEM_BLOCK_2_SIZE=144 -DINTERNAL_XCP_MEM_BLOCK_2_NUMBER=4 -DINTERNAL_XCP_MEM_BLOCK_3_SIZE=72 -DINTERNAL_XCP_MEM_BLOCK_3_NUMBER=4 -DINTERNAL_XCP_MEM_RESERVED_POOLS_TOTAL_SIZE=2718 -DINTERNAL_XCP_MEM_RESERVED_POOLS_NUMBER=5 -DEXTMODE_STATIC -DEXTMODE_STATIC_SIZE=2048 -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=0 -DXCP_MEM_BLOCK_1_SIZE=32 -DXCP_MEM_BLOCK_1_NUMBER=1 -DXCP_MEM_BLOCK_2_SIZE=48 -DXCP_MEM_BLOCK_2_NUMBER=1 -DXCP_MEM_BLOCK_3_SIZE=72 -DXCP_MEM_BLOCK_3_NUMBER=1 -DXCP_MEM_RESERVED_POOLS_TOTAL_SIZE=421 -DXCP_MEM_RESERVED_POOLS_NUMBER=2 -DXCP_MEM_DAQ_RESERVED_POOL_BLOCKS_NUMBER=3 -DXCP_MEM_DAQ_RESERVED_POOLS_NUMBER=1 -DXCP_MIN_EVENT_NO_RESERVED_POOL=1
 DEFINES_SKIPFORSIL = -DXCP_CUSTOM_PLATFORM -DEXIT_FAILURE=1 -DEXTMODE_DISABLEPRINTF -DEXTMODE_DISABLETESTING -DEXTMODE_DISABLE_ARGS_PROCESSING=1 -DSTACK_SIZE=64 -DRT
 DEFINES_STANDARD = -DMODEL=untitled -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0
 
@@ -215,7 +215,7 @@ DEFINES = $(DEFINES_) $(DEFINES_BUILD_ARGS) $(DEFINES_CUSTOM) $(DEFINES_OPTS) $(
 ## SOURCE FILES
 ###########################################################################
 
-SRCS = C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/src/Wire.cpp C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/src/utility/twi.c C:/Users/Zuhair/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/src/I2Cdev.cpp C:/Users/Zuhair/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/src/HMC58X3.cpp C:/Users/Zuhair/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/src/HMC58X~1.CPP $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_mode.c $(START_DIR)/untitled_ert_rtw/untitled.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_common.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_classic_trigger.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/protocol/src/xcp.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/protocol/src/xcp_standard.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/protocol/src/xcp_daq.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/protocol/src/xcp_calibration.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/transport/src/xcp_fifo.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/transport/src/xcp_transport.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/platform/default/xcp_mem_default.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/platform/default/xcp_drv_rtiostream.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/common/xcp_utils.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/transport/src/xcp_frame_serial.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_param_default_serial.c C:/ProgramData/MATLAB/SupportPackages/R2023a/toolbox/target/supportpackages/arduinotarget/src/MW_ArduinoHWInit.cpp C:/ProgramData/MATLAB/SupportPackages/R2023a/toolbox/target/supportpackages/arduinobase/src/io_wrappers.cpp C:/ProgramData/MATLAB/SupportPackages/R2023a/toolbox/target/supportpackages/arduinotarget/scheduler/src/arduinoAVRScheduler.cpp C:/ProgramData/MATLAB/SupportPackages/R2023a/toolbox/target/supportpackages/arduinotarget/src/rtiostream_serial_daemon.cpp
+SRCS = Wire.cpp twi.c I2Cdev.cpp MPU6050.cpp MPU6050wrapper.cpp C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/MW_arduino_digitalio.cpp C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/MW_PWM.cpp C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/MW_PWMDriver.c C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/ArduinoPinHandleMap.cpp C:/Users/Zuhair/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/blocks/../src/ENCODE~1.CPP $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_mode.c $(START_DIR)/untitled_ert_rtw/rtGetInf.c $(START_DIR)/untitled_ert_rtw/rtGetNaN.c $(START_DIR)/untitled_ert_rtw/rt_nonfinite.c $(START_DIR)/untitled_ert_rtw/untitled.c $(START_DIR)/untitled_ert_rtw/untitled_data.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_common.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_classic_trigger.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/protocol/src/xcp.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/protocol/src/xcp_standard.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/protocol/src/xcp_daq.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/protocol/src/xcp_calibration.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/transport/src/xcp_fifo.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/transport/src/xcp_transport.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/platform/default/xcp_mem_default.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/platform/default/xcp_drv_rtiostream.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/common/xcp_utils.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/transport/src/xcp_frame_serial.c $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext_mode/src/xcp_ext_param_default_serial.c C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinotarget/registry/../src/MW_ArduinoHWInit.cpp C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/io_wrappers.cpp C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinotarget/registry/../scheduler/src/arduinoAVRScheduler.cpp C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinotarget/registry/../src/rtiostream_serial_daemon.cpp
 
 MAIN_SRC = $(START_DIR)/untitled_ert_rtw/ert_main.c
 
@@ -225,7 +225,7 @@ ALL_SRCS = $(SRCS) $(MAIN_SRC)
 ## OBJECTS
 ###########################################################################
 
-OBJS = Wire.o twi.o I2Cdev.o HMC58X3.o HMC58X3wrapper.o xcp_ext_mode.o untitled.o xcp_ext_common.o xcp_ext_classic_trigger.o xcp.o xcp_standard.o xcp_daq.o xcp_calibration.o xcp_fifo.o xcp_transport.o xcp_mem_default.o xcp_drv_rtiostream.o xcp_utils.o xcp_frame_serial.o xcp_ext_param_default_serial.o MW_ArduinoHWInit.o io_wrappers.o arduinoAVRScheduler.o rtiostream_serial_daemon.o
+OBJS = Wire.o twi.o I2Cdev.o MPU6050.o MPU6050wrapper.o MW_arduino_digitalio.o MW_PWM.o MW_PWMDriver.o ArduinoPinHandleMap.o encoder_arduino.o xcp_ext_mode.o rtGetInf.o rtGetNaN.o rt_nonfinite.o untitled.o untitled_data.o xcp_ext_common.o xcp_ext_classic_trigger.o xcp.o xcp_standard.o xcp_daq.o xcp_calibration.o xcp_fifo.o xcp_transport.o xcp_mem_default.o xcp_drv_rtiostream.o xcp_utils.o xcp_frame_serial.o xcp_ext_param_default_serial.o MW_ArduinoHWInit.o io_wrappers.o arduinoAVRScheduler.o rtiostream_serial_daemon.o
 
 MAIN_OBJ = ert_main.o
 
@@ -267,7 +267,7 @@ CFLAGS += $(CFLAGS_SKIPFORSIL) $(CFLAGS_BASIC)
 #-----------
 
 LDFLAGS_ = -L"$(SLIB_PATH)"
-LDFLAGS_SKIPFORSIL = -mmcu=atmega2560
+LDFLAGS_SKIPFORSIL = -mmcu=atmega2560 
 
 LDFLAGS += $(LDFLAGS_) $(LDFLAGS_SKIPFORSIL)
 
@@ -276,7 +276,7 @@ LDFLAGS += $(LDFLAGS_) $(LDFLAGS_SKIPFORSIL)
 #--------------------------
 
 SHAREDLIB_LDFLAGS_ = -L"$(SLIB_PATH)"
-SHAREDLIB_LDFLAGS_SKIPFORSIL = -mmcu=atmega2560
+SHAREDLIB_LDFLAGS_SKIPFORSIL = -mmcu=atmega2560 
 
 SHAREDLIB_LDFLAGS += $(SHAREDLIB_LDFLAGS_) $(SHAREDLIB_LDFLAGS_SKIPFORSIL)
 
@@ -294,7 +294,7 @@ CPPFLAGS += $(CPPFLAGS_SKIPFORSIL) $(CPPFLAGS_BASIC)
 #---------------
 
 CPP_LDFLAGS_ = -L"$(SLIB_PATH)"
-CPP_LDFLAGS_SKIPFORSIL = -mmcu=atmega2560
+CPP_LDFLAGS_SKIPFORSIL = -mmcu=atmega2560 
 
 CPP_LDFLAGS += $(CPP_LDFLAGS_) $(CPP_LDFLAGS_SKIPFORSIL)
 
@@ -303,7 +303,7 @@ CPP_LDFLAGS += $(CPP_LDFLAGS_) $(CPP_LDFLAGS_SKIPFORSIL)
 #------------------------------
 
 CPP_SHAREDLIB_LDFLAGS_ = -L"$(SLIB_PATH)"
-CPP_SHAREDLIB_LDFLAGS_SKIPFORSIL = -mmcu=atmega2560
+CPP_SHAREDLIB_LDFLAGS_SKIPFORSIL = -mmcu=atmega2560 
 
 CPP_SHAREDLIB_LDFLAGS += $(CPP_SHAREDLIB_LDFLAGS_) $(CPP_SHAREDLIB_LDFLAGS_SKIPFORSIL)
 
@@ -436,35 +436,35 @@ $(PRODUCT) : $(OBJS) $(PREBUILT_OBJS) $(LIBS) $(MAIN_OBJ)
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-%.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/%.c
+%.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/%.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/%.s
+%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/%.s
 	$(AS) $(ASFLAGS) -o "$@" "$<"
 
 
-%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/%.S
+%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/%.S
 	$(AS) $(ASFLAGS) -o "$@" "$<"
 
 
-%.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/%.cpp
+%.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/%.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-%.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/src/%.c
+%.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/src/%.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/src/%.s
+%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/src/%.s
 	$(AS) $(ASFLAGS) -o "$@" "$<"
 
 
-%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/src/%.S
+%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/src/%.S
 	$(AS) $(ASFLAGS) -o "$@" "$<"
 
 
-%.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/src/%.cpp
+%.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/src/%.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
@@ -484,19 +484,35 @@ $(PRODUCT) : $(OBJS) $(PREBUILT_OBJS) $(LIBS) $(MAIN_OBJ)
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-%.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/src/utility/%.c
+%.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/src/utility/%.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/src/utility/%.s
+%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/src/utility/%.s
 	$(AS) $(ASFLAGS) -o "$@" "$<"
 
 
-%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/src/utility/%.S
+%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/src/utility/%.S
 	$(AS) $(ASFLAGS) -o "$@" "$<"
 
 
-%.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/src/utility/%.cpp
+%.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/aIDE/hardware/arduino/avr/libraries/Wire/src/utility/%.cpp
+	$(CPP) $(CPPFLAGS) -o "$@" "$<"
+
+
+%.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/%.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/%.s
+	$(AS) $(ASFLAGS) -o "$@" "$<"
+
+
+%.S.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/%.S
+	$(AS) $(ASFLAGS) -o "$@" "$<"
+
+
+%.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/%.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
@@ -596,22 +612,6 @@ $(PRODUCT) : $(OBJS) $(PREBUILT_OBJS) $(LIBS) $(MAIN_OBJ)
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-%.o : $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/common/%.c
-	$(CC) $(CFLAGS) -o "$@" "$<"
-
-
-%.S.o : $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/common/%.s
-	$(AS) $(ASFLAGS) -o "$@" "$<"
-
-
-%.S.o : $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/common/%.S
-	$(AS) $(ASFLAGS) -o "$@" "$<"
-
-
-%.o : $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/common/%.cpp
-	$(CPP) $(CPPFLAGS) -o "$@" "$<"
-
-
 %.o : $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/slave/platform/default/%.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
@@ -628,23 +628,23 @@ $(PRODUCT) : $(OBJS) $(PREBUILT_OBJS) $(LIBS) $(MAIN_OBJ)
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-Wire.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/src/Wire.cpp
+MW_arduino_digitalio.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/MW_arduino_digitalio.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-twi.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/libraries/Wire/src/utility/twi.c
+MW_PWM.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/MW_PWM.cpp
+	$(CPP) $(CPPFLAGS) -o "$@" "$<"
+
+
+MW_PWMDriver.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/MW_PWMDriver.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-I2Cdev.o : C:/Users/Zuhair/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/src/I2Cdev.cpp
+ArduinoPinHandleMap.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/ArduinoPinHandleMap.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-HMC58X3.o : C:/Users/Zuhair/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/src/HMC58X3.cpp
-	$(CPP) $(CPPFLAGS) -o "$@" "$<"
-
-
-HMC58X3wrapper.o : C:/Users/Zuhair/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/src/HMC58X3wrapper.cpp
+encoder_arduino.o : C:/Users/Zuhair/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/blocks/../src/encoder_arduino.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
@@ -656,7 +656,23 @@ ert_main.o : $(START_DIR)/untitled_ert_rtw/ert_main.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
+rtGetInf.o : $(START_DIR)/untitled_ert_rtw/rtGetInf.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+rtGetNaN.o : $(START_DIR)/untitled_ert_rtw/rtGetNaN.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+rt_nonfinite.o : $(START_DIR)/untitled_ert_rtw/rt_nonfinite.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
 untitled.o : $(START_DIR)/untitled_ert_rtw/untitled.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+untitled_data.o : $(START_DIR)/untitled_ert_rtw/untitled_data.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
@@ -712,19 +728,19 @@ xcp_ext_param_default_serial.o : $(MATLAB_ROOT)/toolbox/coder/xcp/src/target/ext
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-MW_ArduinoHWInit.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/toolbox/target/supportpackages/arduinotarget/src/MW_ArduinoHWInit.cpp
+MW_ArduinoHWInit.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinotarget/registry/../src/MW_ArduinoHWInit.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-io_wrappers.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/toolbox/target/supportpackages/arduinobase/src/io_wrappers.cpp
+io_wrappers.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinobase/src/io_wrappers.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-arduinoAVRScheduler.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/toolbox/target/supportpackages/arduinotarget/scheduler/src/arduinoAVRScheduler.cpp
+arduinoAVRScheduler.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinotarget/registry/../scheduler/src/arduinoAVRScheduler.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-rtiostream_serial_daemon.o : C:/ProgramData/MATLAB/SupportPackages/R2023a/toolbox/target/supportpackages/arduinotarget/src/rtiostream_serial_daemon.cpp
+rtiostream_serial_daemon.o : C:/ProgramData/MATLAB/SupportPackages/R2022b/toolbox/target/supportpackages/arduinotarget/registry/../src/rtiostream_serial_daemon.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
@@ -771,7 +787,7 @@ info :
 
 
 clean : 
-	$(ECHO) "### Deleting all derived files ..."
+	$(ECHO) "### Deleting all derived files..."
 	$(RM) $(PRODUCT)
 	$(RM) $(ALL_OBJS)
 	$(RM) *.dep

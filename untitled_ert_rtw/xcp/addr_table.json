@@ -1,1 +1,1 @@
-{"entries":[{"content":{"BitsForIndex":13},"type":"coder.xcp.addresstable.AddressTable","uuid":"d409a157-23e2-44a0-92c2-c411e9c6a6ae"}],"packageUris":["http://schema.mathworks.com/mf0/coder_xcp/R2020b"],"version":"1.0"}
+{"entries":[{"content":{"BitsForIndex":13,"Signals":[]},"type":"coder.xcp.addresstable.AddressTable","uuid":"f8153830-44a4-417d-837b-84c68e0807b2"}],"packageUris":["http://schema.mathworks.com/mf0/coder_xcp/R2020b"],"version":"1.0"}

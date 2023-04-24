@@ -1,6 +1,6 @@
 function [taskInfo, numtask, isDeploymentDiagram]=extmode_task_info()
     isDeploymentDiagram = 0;
-                    taskInfo(1).samplePeriod = 0.03;
+                    taskInfo(1).samplePeriod = 0.01;
             taskInfo(1).sampleOffset = 0.0;
 
                 taskInfo(1).taskPrio = 40;
